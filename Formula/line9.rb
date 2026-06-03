@@ -9,22 +9,22 @@ class Line9 < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/line9-ai/line9-web/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/line9-ai/line9-cli/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-aarch64-apple-darwin.tar.gz"
       sha256 "518b3936f8a743aee18bf62a736fc29901a5ff89603d1feebf94acc33922a920"
     end
     on_intel do
-      url "https://github.com/line9-ai/line9-web/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/line9-ai/line9-cli/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-x86_64-apple-darwin.tar.gz"
       sha256 "3b317d6b706184bff2c4eb6372aad3ac62dc3a3f58593f8f603f9d5b2b12bf5d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/line9-ai/line9-web/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-aarch64-unknown-linux-musl.tar.gz"
+      url "https://github.com/line9-ai/line9-cli/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-aarch64-unknown-linux-musl.tar.gz"
       sha256 "76e487fa4b5436c7cd8a38f641f2e15d0a1ce8e6ffd53ed4bde3c7b1b4778ea7"
     end
     on_intel do
-      url "https://github.com/line9-ai/line9-web/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-x86_64-unknown-linux-musl.tar.gz"
+      url "https://github.com/line9-ai/line9-cli/releases/download/cli-v0.0.0-test/line9-cli-v0.0.0-test-x86_64-unknown-linux-musl.tar.gz"
       sha256 "6133524b18e341ef866560e3dde587da77f84fcd55039a63c271de89925fbac6"
     end
   end
