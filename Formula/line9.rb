@@ -30,8 +30,9 @@ class Line9 < Formula
   end
 
   def install
-    # Each archive holds the binary in a "line9-<tag>-<target>/" subdirectory.
-    bin.install Dir["line9-*/line9"].first => "line9"
+    # The archive's single top-level dir (line9-<tag>-<target>/) holds the
+    # binary; Homebrew auto-changes into it on unpack, so install from the root.
+    bin.install "line9"
   end
 
   test do
