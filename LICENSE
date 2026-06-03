@@ -1,0 +1,10 @@
+All Rights Reserved
+
+Copyright (c) 2026 line9-ai
+
+This repository contains the Homebrew tap (packaging metadata) for the line9
+CLI. No licence to the line9 software itself is granted by this repository.
+
+TODO: replace with the project's chosen licence once the proprietary-licence
+question is settled (tracked alongside the line9-web cli/docs/SIGNING.md and
+bead lw-hcz.2.7). Until then, all rights are reserved.

@@ -1,0 +1,3 @@
+# The `line9` formula (Formula/line9.rb) is added by bead lw-hcz.2.6. This
+# placeholder keeps the conventional Homebrew `Formula/` directory present in
+# the empty tap so `brew tap line9-ai/line9` resolves cleanly.
